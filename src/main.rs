@@ -11,10 +11,10 @@ use piston_window::types::Color;
 use game::Game;
 use drawing::to_gui_coord_u32;
 
-const BACK_COLOR: Color = [0.204, 0.286, 0.369, 1.0];
+const BACK_COLOR: Color = [0.0, 0.0, 0.0, 1.0];
 
 fn main() {
-    let (width, height) = (20, 20);
+    let (width, height) = (16*2, 9*2);
 
     // Create a window
     let mut window: PistonWindow = WindowSettings::new("Rust Snake",
